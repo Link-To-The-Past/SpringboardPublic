@@ -1,0 +1,51 @@
+.Memory {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+.Start {
+  position: absolute;
+  min-width: 120px;
+  padding: 15px;
+  border: 3px;
+  border-color: azure;
+  font-size: larger;
+  margin-top: 65%;
+  font-family: fantasy;
+  color: rgb(255, 255, 255);
+  background-color: dimgrey;
+  cursor: pointer;
+}
+html {
+  cursor: url("./stickCursor.png"), auto;
+  background-color: rgb(125, 183, 25);
+}
+.backgroundImg {
+  display: flex;
+  margin-left: -20%;
+  margin-top: -15px;
+}
+.rocks {
+  position: absolute;
+  margin-left: -15%;
+  margin-bottom: 25%;
+  top: 80%;
+  left: 48%;
+  align-items: center;
+}
+#mem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+tr {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+.dude {
+  padding: 5px;
+}
